@@ -1,0 +1,587 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix {
+	clear:both;	
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background: url(images/mini_4.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+/*BANNER*/
+.banner {
+	width: 100%;
+	background: rgba(255,255,255,1.00);	
+	position: fixed;
+	top: 0;
+}
+	
+.logo {
+	width: 100px;
+	float: left;		
+}
+
+.logo img {
+	max-width: 100px;
+	height: auto;	
+}
+
+.social {
+	float:right;
+	width: auto;
+	padding-left: 0px;
+	padding-top: 15px;
+    display: inline-block;
+}
+
+.social ul{
+	list-style: none;
+}
+
+.social ul li{
+	float: left;
+	font-size: 10px;
+	padding-left: 15px;	
+}
+
+.social ul li img{ 
+	width: 25px;
+	padding-top: 0px;	
+}
+
+nav {
+    float: left;
+    padding: 7px;
+    padding-left: 10px;
+	padding-top: 20px;
+}
+
+nav ul {
+	list-style-type:none;
+}
+
+nav ul li {
+	float:left;	
+}
+
+nav ul li a {
+	text-decoration: none;
+	text-transform:uppercase;
+	font-size:14px;
+	padding: 3px 20px;
+	margin-right: 10px;
+	color:#000;
+	transition: all 400ms ease;
+}
+
+nav ul li a:hover {
+	font-weight:bold;	
+}
+	
+nav ul li a img {
+	width: 20px;
+	height: auto;
+}
+/*FIN BANNER*/
+
+/*FOOTER*/
+footer{
+	clear: both;
+	width: 100%;
+	height: 150px;
+	background: rgba(255,255,255,1.00);
+	color: #000000;
+}  
+
+.texto {
+	padding-top: 50px;
+}
+
+.izq_titulo {
+	float: left;
+	width: 100px;	
+}
+
+.texto .der_social{
+    float: right;
+    position: relative;
+    display: inline-block;
+    margin-top: -30px;
+}
+
+.texto .der_social ul li{
+	list-style: none;
+	float: left;
+	font-size: 20px;
+	padding-left: 15px;
+}
+
+.texto .der_social ul li img{
+	width: 25px;
+	padding-top: 25px;
+}
+
+.texto .nav_inferior {
+	float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.texto .nav_inferior {
+	float: left;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+
+.texto .nav_inferior ul li {
+    list-style: none;
+    float: left;
+    font-size: 15px;
+    padding-left: 60px;
+}
+
+.texto .nav_inferior ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+/*FIN FOOTER*/
+
+/*INICIO*/
+.wrap {
+	width: 960px;
+	margin: 0 auto;	
+}
+
+.fondo_blanco {
+	width: 100%;
+	background: rgba(255,255,255,0.80);	
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-top: 600px;
+}	
+
+.fondo_blanco2 {
+	width: 100%;
+	background: rgba(255,255,255,1.0);	
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.fondo_blanco3 {
+	width: 100%;
+	background: rgba(255,255,255,0.80);	
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.contenido1 {
+	float:left;
+	width: 100%;
+}
+
+.titulo {
+	padding-bottom: 30px;
+}
+	
+.video {
+	float:left;
+	width: 960px;
+	padding-top: 50px;
+	padding-bottom: 50px;		
+}
+
+.seccion2 {
+	float:left;
+	width: 100%;	
+}
+
+.contenido2 {
+	float: left;
+	width: 460px;
+}
+
+.foto_cabrio {
+	float: right;
+	width: 460px;
+	
+}
+
+.foto_cabrio img {
+	width: 460px;
+}
+	
+.seccion3 {
+	float: left;
+	width: 100%;
+}
+
+.contenido3 {
+	float: right;
+	width: 460px;
+}
+
+.journey_mate {
+	float: left;
+	width: 460px;
+}
+
+.journey_mate img{
+	float: left;
+	width: 460px;
+	padding-bottom: 10px;
+}
+
+.boton {
+	float: left;
+	margin-top: 40px;
+	text-align: center;
+	text-transform:uppercase;
+	padding-bottom: 100px;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin-top:20px;
+  transition: all 300ms ease;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+  text-decoration: none;
+}
+/*FIN INICIO*/
+
+/*MINI CABRIO*/
+.mini1 {
+	float: left;
+	width: 100%;	
+}
+
+.descripcion {
+	float: left;
+	width: 100%;
+	height: 500px;
+	background: url(images/mini3.jpg) 50% 0 no-repeat ;
+	margin-top: 20px;	
+	padding-top: 30px;
+}
+
+.descripcion h1, h2, h3{
+	padding-left: 20px;	
+}
+
+.mini2 {
+	float:left;
+	width:100%;	
+}
+
+.descripcion2 {
+	float: left;
+	width: 500px;
+}
+
+.descripcion2 h2{
+	padding-left:0px;	
+}
+
+.antivuelco {
+	float: right;
+	width: 400px;	
+}
+
+.antivuelco img{
+	width: 400px;
+}
+
+.mini3 {
+	float:left;
+	width:100%;	
+	padding-top: 70px;
+}
+
+.descripcion3 {
+	float: right;
+	width: 500px;
+}
+
+.descripcion3 h2{
+	padding-left:0px;	
+}
+
+.proyeccion {
+	float: left;
+	width: 400px;	
+}
+
+.proyeccion img{
+	width: 400px;
+}
+
+.mini4 {
+	float:left;
+	width:100%;
+	padding-top: 70px;	
+	padding-bottom: 50px;s
+}
+
+.descripcion4 {
+	float: left;
+	width: 500px;
+}
+
+.descripcion4 h2{
+	padding-left:0px;	
+}
+	
+.aviso_lluvia {
+	float: right;
+	width: 400px;	
+}
+
+.aviso_lluvia img{
+	width: 400px;	
+}
+
+.caracteristicas {
+	float:left;
+	width: 100%;
+	padding-top:50px;	
+}
+
+.texto_detalles {
+	float:left;
+	width: 100%;
+	background: url(images/zenital.jpg) 50% 0 no-repeat ;
+	height: 500px;
+	padding-top:20px;
+	margin-top: -50px;
+}
+
+.texto_detalles h2 {
+	color: white;	
+}
+
+.texto_detalles h3{
+	color:white;	
+}
+
+.mini5 {
+	float:left;
+	width:100%;	
+	padding-top: 100px;
+}
+
+.descripcion5 {
+	float: left;
+	width: 500px;
+}
+
+.descripcion5 h2{
+	padding-left:0px;	
+}
+
+.superficies {
+	float: right;
+	width: 400px;	
+}
+
+.superficies img{
+	width: 400px;
+}
+
+.mini6 {
+	float:left;
+	width:100%;	
+	padding-top: 70px;
+}
+
+.descripcion6 {
+	float: right;
+	width: 500px;
+}
+
+.descripcion6 h2{
+	padding-left:0px;	
+}
+
+.capo {
+	float: left;
+	width: 400px;	
+}
+
+.capo img{
+	width: 400px;
+}
+
+.mini7 {
+	float:left;
+	width:100%;
+	padding-top: 70px;	
+	padding-bottom: 50px;
+}
+
+.descripcion7 {
+	float: left;
+	width: 500px;
+}
+
+.descripcion7 h2{
+	padding-left:0px;	
+}
+	
+.llantas {
+	float: right;
+	width: 400px;	
+}
+
+.llantas img{
+	width: 400px;	
+}
+
+.especificaciones {
+	float:left;
+	width: 100%;	
+	padding-bottom: 200px;
+}
+
+.titulo_esp {
+	float:left;
+	width: 100%;
+	padding-bottom:70px;	
+}
+
+.cabrio_cooper {
+	float:left;
+	width:300px;
+	padding-left: 320px;
+	
+}
+
+.cabrio_coopers {
+	float:left;
+	width:300px;
+	padding-bottom:20px;
+	padding-left: 20px;	
+}
+
+.contenedor1 {
+	float:left;
+	width: 300px;	
+}
+
+.contenedor2 {
+	float:left;
+	width: 300px;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.contenedor3 {
+	float:left;
+	width: 300px;	
+}
+/*FIN MINI CABRIO*/
+
+/*COTIZAR*/
+.contenido.cot {
+	float: left;
+	width: 100%;	
+}
+
+.contenido_izq {
+	float: left;
+	width: 480px;	
+}
+
+.texto_cot {
+ 	float: left;
+	width: 400px;	
+	padding-top: 30px;
+}
+
+.formulario{
+	float: left;
+    width:500px;
+    margin-top:70px;
+	padding-bottom: ;
+}      
+   
+ .formulario p{
+	float:left;
+    width:500px;
+	font-size:14px;	
+} 
+
+.uno{
+	float: left;
+   	width: 477px;
+    margin: auto;
+	margin-bottom: 20px;
+	height:10px;
+}
+
+.comentario{
+	float:left;
+    width:477px;
+    height: 100px;
+}
+
+input{
+	float: left;
+	width: 400px;
+	padding: 5px 3px;
+	font-size:18px;
+	margin-top: 10px;
+	margin-left:360px;
+}
+
+input[type=submit] {
+	max-width: 100px;
+	background: #000;
+	color:#fff;
+	font-family: 'Quicksand', sans-serif;
+	cursor: pointer;
+	border:none;
+	font-size:14px;
+ }
+
+.contenido_der {
+	float: right;
+	width: 460px;	
+}
+
+.concesionario {
+	float:left;
+	padding-top: 100px;	
+}
+
+.concesionario_texto {
+	float: left;
+	width: 400px;
+	padding-left: 10px;
+}
+
+.mapa {
+    float: left;
+	width: 460px;
+	border: none;
+	padding:10px;
+}
